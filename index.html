@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Realm Wiki</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">♛</div>
+          <div>
+            <h1>The Realm</h1>
+            <p>Code of Laws & Governance</p>
+          </div>
+        </div>
+
+        <nav class="side-nav" aria-label="Main navigation">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="government.html">Monarchy & Government</a>
+          <a class="nav-link" href="legal-codex.html">Legal Codex</a>
+          <a class="nav-link" href="civil-principles.html">Civil Principles</a>
+          <a class="nav-link" href="religious-laws.html">Religious Laws</a>
+          <a class="nav-link" href="judiciary.html">Judiciary</a>
+          <a class="nav-link" href="legal-procedure.html">Legal Procedure</a>
+          <a class="nav-link" href="quick-reference.html">Quick Reference</a>
+        </nav>
+
+        <div class="search-panel">
+          <label for="searchInput" class="sr-only">Search the wiki</label>
+          <input id="searchInput" type="search" placeholder="Search this page..." />
+          <div id="searchResults" class="search-results" aria-live="polite"></div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="page-header">
+          <div>
+            <p class="eyebrow">Compendium</p>
+            <h2>The Realm Wiki</h2>
+          </div>
+          <button class="print-button" onclick="window.print()">Print</button>
+        </header>
+
+        <article class="article">
+          <section>
+            <h3>Welcome to the Realm</h3>
+            <p>
+              This wiki gathers the laws, values, institutions, and ritual practices of the Realm. It offers a
+              reference for rulers, judges, clergy, nobles, and citizens alike.
+            </p>
+            <p>
+              The code below is not merely a summary of rules, but a framework for understanding how authority,
+              morality, and justice are supposed to work together in a lawful society.
+            </p>
+          </section>
+
+          <section>
+            <h3>Core Governance</h3>
+            <div class="card-list">
+              <div class="card">
+                <h4>Monarchy</h4>
+                <p>The Crown is the supreme authority of the Realm, standing above law in its sovereign capacity while being bound by custom and legitimacy.</p>
+              </div>
+              <div class="card">
+                <h4>Law Code</h4>
+                <p>The legal codex covers offenses, punishments, criminal categories, and the hierarchy of sanctions used in the Realm.</p>
+              </div>
+              <div class="card">
+                <h4>Religion</h4>
+                <p>Faith of the Seven shapes legal morality, sacred property, marriage, ritual, and the moral structure of the state.</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3>Quick Navigation</h3>
+            <div class="card-list">
+              <div class="card">
+                <h4><a href="government.html">Monarchy & Government</a></h4>
+                <p>How power is structured, how nobles are ranked, and how authority is delegated.</p>
+              </div>
+              <div class="card">
+                <h4><a href="legal-codex.html">Legal Codex</a></h4>
+                <p>Classification of offenses, punishment principles, and the full criminal framework.</p>
+              </div>
+              <div class="card">
+                <h4><a href="civil-principles.html">Civil Principles</a></h4>
+                <p>Property, contract, family law, labor, and the rights of subjects in normal life.</p>
+              </div>
+              <div class="card">
+                <h4><a href="religious-laws.html">Religious Laws</a></h4>
+                <p>Belief, taboo, ritual, sacral authority, and the role of the church in the legal order.</p>
+              </div>
+              <div class="card">
+                <h4><a href="judiciary.html">Judiciary</a></h4>
+                <p>The courts, evidence rules, modes of trial, and adjudicative institutions.</p>
+              </div>
+              <div class="card">
+                <h4><a href="legal-procedure.html">Legal Procedure</a></h4>
+                <p>How claims are filed, how evidence is heard, and how justice is enforced.</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3>Core Principles</h3>
+            <ul class="standard-list">
+              <li>Law should be lawful, proportionate, and publicly known.</li>
+              <li>Authority must not operate without jurisdiction or due process.</li>
+              <li>Crown power is supreme, but not arbitrary.</li>
+              <li>Faith and law reinforce one another in the social order.</li>
+              <li>Judgment must be fair, defensible, and enforceable.</li>
+            </ul>
+          </section>
+        </article>
+      </main>
+    </div>
+
+    <script src="search.js"></script>
+  </body>
+</html>
